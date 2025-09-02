@@ -1,20 +1,53 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 📌 Aptly – AI Resume Optimizer
 
-# Run and deploy your AI Studio app
+🚀 **Aptly** is an AI-powered resume optimization platform that helps job seekers tailor their resumes and cover letters for specific job descriptions.  
+Just upload/paste your resume + job description, and Aptly will:
 
-This contains everything you need to run your app locally.
+✅ Tailor your resume to match the job  
+✅ Generate a personalized cover letter  
+✅ Provide an in-depth analysis report (score + suggestions)
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+---
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- 📝 **Resume Tailoring** – Aligns your resume with the job description
+- 📄 **Cover Letter Generator** – Creates customized cover letters
+- 📊 **Analysis Report** – Resume scoring, strengths, and improvement tips
+- 💾 **History & Profiles** – Save past uploads and manage multiple resumes
+- 🔒 **Authentication** – Secure login and personalized dashboard
+- ☁️ **Firestore Integration** – Store user data and resume history
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🖼️ Screenshots
+
+_(Add screenshots of your UI here)_
+
+Example:
+
+![Dashboard](./assets/screenshots/dashboard.png)
+![Resume Analysis](./assets/screenshots/analysis.png)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React + TypeScript + Vite
+- **UI Frameworks:** Tailwind CSS, ShadCN, Lucide Icons
+- **Backend/DB:** Firebase Firestore
+- **Auth:** Firebase Authentication
+- **AI:** GPT-powered Resume & Cover Letter generation
+
+---
+
+## ⚡ Getting Started
+
+Follow these steps to run Aptly locally:
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/aptly-ai-resume-optimizer.git
+cd aptly-ai-resume-optimizer
+```
